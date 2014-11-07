@@ -26,7 +26,7 @@ public class GreatestCommonDivisor {
 	
 	public static int nonRecursiveGcd(int p, int q){
 		try {
-			while(p != 0){
+			while(q != 0){
 				int temp = q;
 				q = p % q;
 				p = temp;
